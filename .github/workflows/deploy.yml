@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-      - run: rm -f package-lock.json && npm install
+      - run: rm -f package-lock.json && npm install --force
       - run: npx next build --webpack
       - uses: actions/upload-pages-artifact@v3
         with:
