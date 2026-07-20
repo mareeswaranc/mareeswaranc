@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "Platform Engineer specializing in Kubernetes, AWS, Infrastructure as Code, and Cloud Architecture. Building reliable, scalable systems.",
   icons: {
-    icon: "/favicon.svg",
+    icon: "favicon.svg",
   },
   keywords: [
     "Platform Engineer",
