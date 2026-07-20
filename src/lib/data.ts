@@ -135,15 +135,15 @@ export const projects = [
   {
     title: "Portfolio Deployment Pipeline",
     description:
-      "Automated deployment pipeline for this portfolio with preview deployments, Lighthouse checks, and analytics.",
+      "GitHub Actions-powered deployment pipeline that builds, optimizes, and deploys this portfolio to GitHub Pages with automated checks.",
     problem:
       "Manual portfolio updates were slow and lacked quality checks before production deployment.",
     solution:
-      "Built a fully automated pipeline with preview deployments, performance checks, and Vercel integration.",
-    techStack: ["Next.js", "Vercel", "GitHub Actions", "TypeScript", "Tailwind CSS"],
-    metrics: { lighthouse: "98", deployTime: "< 2 min", previews: "auto" },
+      "Built a static export pipeline via Next.js with GitHub Actions that conditionally handles basePath for dev vs. production, automates deployment to GitHub Pages, and uses EmailJS for contact form submissions.",
+    techStack: ["Next.js", "GitHub Actions", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    metrics: { buildTime: "< 30s", deployTime: "< 2 min", pages: "GitHub Pages" },
     status: "Live",
-    github: "https://github.com/mareeswaranc/portfolio",
+    github: "https://github.com/mareeswaranc/mareeswaranc",
   },
 ];
 
