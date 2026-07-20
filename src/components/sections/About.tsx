@@ -20,7 +20,7 @@ const timeline = [
 const highlights = [
   { icon: Zap, label: "7 Months", sub: "Experience", color: "text-amber-400" },
   { icon: BookOpen, label: "1 Cert", sub: "Certified", color: "text-blue-400" },
-  { icon: Users, label: "Open Source", sub: "Contributor", color: "text-purple-400" },
+  { icon: Users, label: "DevOps", sub: "Practitioner", color: "text-purple-400" },
   { icon: Zap, label: "Global", sub: "Opportunities", color: "text-green-400" },
 ];
 
