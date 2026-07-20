@@ -10,6 +10,7 @@ const statusColors: Record<string, string> = {
   Production: "bg-green-500/10 text-green-400 border-green-500/20",
   Active: "bg-blue-500/10 text-blue-400 border-blue-500/20",
   Maintained: "bg-amber-500/10 text-amber-400 border-amber-500/20",
+  Live: "bg-green-500/10 text-green-400 border-green-500/20",
 };
 
 const tagColors: Record<string, string> = {
