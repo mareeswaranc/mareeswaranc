@@ -74,7 +74,9 @@ export function Hero() {
                 View Projects <ArrowRight size={16} />
               </a>
               <a
-                href="#"
+                href="resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl glass px-6 py-3 font-medium transition-all hover:bg-muted/80 glow-border"
               >
                 <Download size={16} /> Resume
